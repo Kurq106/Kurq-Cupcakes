@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kurq Cupcakes</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container text-center py-3">
+      <h1 class="logo">Kurq Cupcakes</h1>
+      <p class="tagline">Baked with Love & a Sprinkle of Magic!</p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto">
+          <a href="#" class="nav-item nav-link active">Home</a>
+          <a href="#" class="nav-item nav-link">Menu</a>
+          <a href="#" class="nav-item nav-link">Gallery</a>
+          <a href="#" class="nav-item nav-link">About</a>
+          <a href="#" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="heroHome" class="text-center py-5 bg-light">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Sweetness in Every Bite</h1>
+      <p class="lead">Welcome to Kurq Cupcakes — where each cupcake is baked fresh and full of flavor!</p>
+    </div>
+  </section>
+
+  <main>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 mb-4">
+          <div class="card recipe-card shadow-sm">
+            <img src="strawberrycupcake.jpg" class="card-img-top" alt="Strawberry Cupcake">
+            <div class="card-body text-center">
+              <h5 class="card-title">Strawberry Dream</h5>
+              <p class="card-text">Fluffy vanilla cake topped with strawberry frosting and candy sprinkles.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 mb-4">
+          <div class="card recipe-card shadow-sm">
+            <img src="chocolatecupcake.jpg" class="card-img-top" alt="Chocolate Cupcake">
+            <div class="card-body text-center">
+              <h5 class="card-title">Choco Bliss</h5>
+              <p class="card-text">Rich chocolate base with creamy fudge frosting and chocolate shavings.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 mb-4">
+          <div class="card recipe-card shadow-sm">
+            <img src="lemoncupcake.jpg" class="card-img-top" alt="Lemon Cupcake">
+            <div class="card-body text-center">
+              <h5 class="card-title">Lemon Zest</h5>
+              <p class="card-text">Light lemon cake with tangy buttercream and sugar pearls.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="menu" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Featured Cupcakes</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered text-center align-middle">
+            <thead class="table-pink">
+              <tr>
+                <th>Image</th>
+                <th>Cupcake Name</th>
+                <th>Description</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="strawberrycupcake.jpg" class="menu-img" alt="Strawberry Cupcake"></td>
+                <td>Strawberry Dream</td>
+                <td>Fluffy vanilla cake topped with strawberry frosting and candy sprinkles.</td>
+                <td>$3.50</td>
+              </tr>
+              <tr>
+                <td><img src="chocolatecupcake.jpg" class="menu-img" alt="Chocolate Cupcake"></td>
+                <td>Choco Bliss</td>
+                <td>Rich chocolate base with creamy fudge frosting and chocolate shavings.</td>
+                <td>$3.75</td>
+              </tr>
+              <tr>
+                <td><img src="lemoncupcake.jpg" class="menu-img" alt="Lemon Cupcake"></td>
+                <td>Lemon Zest</td>
+                <td>Light lemon cake with tangy lemon buttercream and sugar pearls.</td>
+                <td>$3.25</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section id="videos" class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/W4CCzrVVtuw?si=K7nKw4_oSGeYZb08" 
+                      title="YouTube video player" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <video width="100%" controls>
+              <source src="cupcakevideo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="mt-3">Watch our bakers create magic in the kitchen!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer mt-auto py-3 text-center bg-pink">
+    <div class="container">
+      <span>&copy; 2025 Kurq Cupcakes | Made with Love and Frosting</span>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

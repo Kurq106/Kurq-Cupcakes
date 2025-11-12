@@ -1,0 +1,145 @@
+body {
+  font-family: "Century Schoolbook", serif;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #FFF8F2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFB6C1;
+  padding: 10px 20px;
+}
+
+.logo {
+  margin-left: 1em;
+  color: #FF1493;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+nav ul a:hover {
+  background: #FFCC99;
+}
+
+main {
+  background-color: #F4FFE6;
+  padding: 20px;
+}
+
+footer {
+  background-color: #FFB6C1;
+  color: white;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: auto;
+  padding: 10px;
+}
+
+/*table style*/
+
+table, th, td {
+  border: 2px solid #FFCCDD;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #FFF0F5;
+  font-family: "Century Schoolbook", serif;
+}
+
+th {
+  background-color: #FFB6C1;
+  color: white;
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.logoImg {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.logoDiv {
+  text-align: center;
+}
+
+a:link {
+  color: #FF69B4;
+}
+
+a:visited {
+  color: #FF69B4;
+}
+
+a:hover {
+  color: #FF4500;
+}
+
+/* Kurq Cupcakes Custom Styles */
+body {
+  background-color: #FFF8F2;
+  font-family: "Century Schoolbook", serif;
+  color: #333;
+}
+
+.logo {
+  color: #FF1493;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.tagline {
+  font-style: italic;
+  color: #FF69B4;
+}
+
+.table-pink {
+  background-color: #FFB6C1;
+  color: white;
+}
+
+.menu-img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+footer.bg-pink {
+  background-color: #FFB6C1;
+  color: white;
+}
+
+.card {
+  border: 2px solid #FFB6C1;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
